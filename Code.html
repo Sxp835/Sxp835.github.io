@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sofia Portillo Code</title>
+        <link href="CSS/style.css" rel="stylesheet" />
+    </head>
+
+
+    <body id="code">
+
+        <header>
+            <h1>Sofia Portillo</h1>
+            <p  id="phone-number">(786)734-6843 </p>
+            <p  id="email">sxp835@miami.edu</p>
+            <img src="image/headshot.jpg" alt="Sofia Portillo headshot" />
+
+            <nav>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="Resume.html">Resume</a></p>
+                <p><a href="Graphics.html">Graphics</a></p>
+            </nav>
+        </header>
+
+
+        <main>
+            <section>
+                <h2>Coding Projects</h2>
+                <p>There is a description of each program provided as well as a link to github where the code can be seen.</p>
+            </section>
+
+            <section>
+                <article>
+                    <h3>Band of the Hour</h3>
+                    <p>A program which organizes where musicians will stand on bleachers at away games. Since each stadium is different,it allows input of the number of rows that they have to stand on, with a maximum of 10, and the number of positions per row. The maximum number of positions is 8 and positions are numbered with integers while rows are labelled with capital letters.</p>
+                    <p>The conductor can assign people to positions, but is constrained by weight limits: Musicians, fully clothed and holding their instruments, weigh from 45kg to 200kg, and the total weight of a row may not exceed 100kg per position (e.g., a row with 5 positions may not have more than 500kg of musicians on it). The program allows musicians to be added and removed from positions, while ensuring the constraints are all met. At any stage the current assignment can be displayed - the weight in each position (0kg for vacant positions) and the total & average weight for each row.</p>
+                    <p>The program is menu driven with options to:</p>
+                    <ul>
+                        <li>Add a musician (by weight) to a vacant position.</li>
+                        <li>Remove a musician from an occupied position.</li>
+                        <li>Print the current assignment.</li>
+                        <li>Exit</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Forestry Service</h3>
+                    <p>Using objects, this program simulates the growth and pruning of forests. Each forest has a name and exactly 10 trees. The trees are planted when they are 1' to 5' tall, and each tree has a individual growth rate of 50%-100% per year. For the simulation new trees are constructed randomly within these bounds. A forest is reaped (by lumberjacks) on demand - all trees above a specifed height are cut down and replaced with new trees.</p>
+                    <p>The user interface to the simulation allows the user to:</p>
+                    <ul>
+                        <li>Display the current forest (with tree heights to 2 decimal places).</li>
+                        <li>Discard the current forest and create a new forest.</li>
+                        <li>Simulate a year's growth in the current forest.</li>
+                        <li>Reap the current forest of trees over a user specified height, replacing the reaped trees with random new trees.</li>
+                        <li>Save the information from the current forest to file (named after the forest)</li>
+                        <li>Discard the current forest adn load the information about a forest from a file.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Diamond's are a girl's best friend</h3>
+                    <p>This program creates a girl object and repeatedly displays information about the girl and her diamond (another object), if she has one. It also allows the user to input the number of carats and the value of the next diamond. If the offer is more than 0 carats, it creates a diamond object and offers it to the girl (she accepts only if it is more valuable than her current diamond), until a diamond of 0 carats is specified.</p>
+                </article>
+
+                <article>
+                    <h3>I am</h3>
+                    <p>This program reads a sentence and checks to see if the sentence starts with "I am", if it does, the substring after that is extracted containing the quality the person believes they possess. The substring is then concatenated into a growing string containing all such qualities. </p>
+                </article>
+            </section>
+
+        </main>
+
+    </body>
+
+</html>
