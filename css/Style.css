@@ -162,3 +162,10 @@ article img {
     padding-top: 15px;
     margin-left: 25px;
 }
+
+#graphics main {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
