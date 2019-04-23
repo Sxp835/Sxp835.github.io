@@ -3,25 +3,126 @@
 body {
     font-size: 16px;
     font-family: "sawarabi mincho", "Arial", sans-serif;
-    margin: 0;
+    color: rgb(38,38,38);
+    background-color: #d8d8d8;
+    margin:0;
 }
 
 main {
-    margin-left: 30px;
-    max-width: 800px;
+    max-width: 700px;
+    min-width: 530px;
+    margin: 40px auto 0;
+}
+
+header div p {
+    display: inline-block;
+    margin-bottom: 90px;
+    margin-top: 0;
+}
+
+header {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+}
+
+.header {
+    background-color: rgb(157, 160, 173);
+    min-width: 850px;
+}
+
+h2 {
+    font-family: "roboto slab", "Times New Roman", serif;
+    border-bottom: dotted 3px rgb(38,38,38);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#phone-number {
+    font-weight: bold;
+    border-right: solid 2px rgb(38,38,38);
+    padding-right: 5px;
+}
+
+#email {
+    font-weight: bold;
+}
+
+header div {
+    margin-top: 20px;
+
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+    color: rgb(0,102,102);
+    font-family: "lobster two", "times new roman", serif;
+}
+
+h3 a {
+    font-size: 20px;
+}
+
+header img {
+    border: double 4.5px rgb(38,38,38);
+    padding: 5px;
+    margin-top: 70px;
+    position: absolute;
+    right:0;
 }
 
 nav {
-    background-color: black;
-    opacity: 0.5;
-    padding: 10px 0 0 30px;
-
+    grid-column: 1 / -1;
+    grid-row: 2;
 }
 
 nav p {
     display: inline-block;
-    margin-right: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
 
+a {
+    color: rgb(0,120,120);
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+a:visited {
+    color: rgb(0,120,120);
+}
+
+a:hover {
+    color: rgb(0,51,51);
+}
+
+a:active {
+    color: lightblue;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color:white;
+}
+
+nav a:hover {
+    color: rgb(0,51,51);
+}
+
+nav a:active {
+    color: lightblue;
+}
+
+article img {
+    margin: 0;
+    width: 500px;
 }
 
 #home {
@@ -31,16 +132,33 @@ nav p {
     background-repeat: no-repeat;
 }
 
-#home h2, #home h1 {
-    color: rgb(0,102,102);
-}
-
 #home h1 {
     margin-top: 70px;
+    color: rgb(0,102,102);
+    font-family: "sawarabi mincho", "Arial", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 #home h2 {
     font-size: 60px;
-    margin: 0;
+    margin: 20px 0;
     font-family: "lobster two", "times new roman", serif;
+    border: none;
+    color: rgb(0,102,102);
+}
+
+#home main {
+    margin-left: 30px;
+}
+
+#home header {
+    max-width: none;
+    background-color: rgb(157, 160, 173);
+    opacity: 0.5;
+}
+
+#home nav {
+    padding-top: 15px;
+    margin-left: 25px;
 }
