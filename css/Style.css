@@ -30,7 +30,11 @@ header {
 
 .header {
     background-color: rgb(157, 160, 173);
-    min-width: 850px;
+    min-width: 550px;
+    background-image: url("../img/laptop.jpeg");
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 0 auto;
 }
 
 h2 {
@@ -81,7 +85,7 @@ nav {
 
 nav p {
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 0;
     margin-right: 10px;
 }
 
