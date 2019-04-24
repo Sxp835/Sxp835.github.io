@@ -164,8 +164,12 @@ article img {
 }
 
 #graphics main {
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+#graphics main img {
+    width: 200px;
 }
