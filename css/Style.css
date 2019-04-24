@@ -30,7 +30,7 @@ header {
 
 .header {
     min-width: 550px;
-    background-image: url("../img/laptop2.jpeg");
+    background-image: url("../img/laptop2.jpg");
     background-attachment: fixed;
     background-size: cover;
     margin: 0 auto;
@@ -133,7 +133,7 @@ article img {
 }
 
 #home {
-    background-image: url("../img/laptop.jpeg");
+    background-image: url("../img/laptop.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ article img {
     opacity: 0.5;
 }
 
-#graphics main {
+#graphics main div {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -173,4 +173,8 @@ article img {
 
 #graphics main img {
     width: 200px;
+}
+
+#graphics p {
+    margin-bottom: 30px;
 }
