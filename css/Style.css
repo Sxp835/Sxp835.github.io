@@ -33,7 +33,7 @@ header {
     min-width: 550px;
     background-image: url("../img/laptop.jpeg");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     margin: 0 auto;
 }
 
