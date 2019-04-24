@@ -29,7 +29,6 @@ header {
 }
 
 .header {
-    background-color: rgb(157, 160, 173);
     min-width: 550px;
     background-image: url("../img/laptop2.jpeg");
     background-attachment: fixed;
@@ -46,17 +45,20 @@ h2 {
 
 #phone-number {
     font-weight: bold;
-    border-right: solid 2px rgb(38,38,38);
+    border-right: solid 2px white;
     padding-right: 5px;
+    color: white;
+    background: rgba(157, 160, 173, 0.3);
 }
 
 #email {
     font-weight: bold;
+    color: white;
+    background: rgba(157, 160, 173, 0.3);
 }
 
 header div {
     margin-top: 20px;
-
 }
 
 h1 {
@@ -71,7 +73,7 @@ h3 a {
 }
 
 header img {
-    border: double 4.5px rgb(38,38,38);
+    border: double 4.5px white;
     padding: 5px;
     margin-top: 70px;
     position: absolute;
@@ -80,7 +82,8 @@ header img {
 
 nav {
     grid-column: 1 / -1;
-    grid-row: 2;
+    grid-row: 1;
+    margin-top: 20px;
 }
 
 nav p {
@@ -156,15 +159,9 @@ article img {
     margin-left: 30px;
 }
 
-#home header {
-    max-width: none;
+#home #header {
     background-color: rgb(157, 160, 173);
     opacity: 0.5;
-}
-
-#home nav {
-    padding-top: 15px;
-    margin-left: 25px;
 }
 
 #graphics main {
