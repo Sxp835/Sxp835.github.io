@@ -265,6 +265,10 @@ article {
     display: none;
 }
 
-#resume {
+#myresume {
+    display: none;
+}
+
+#return {
     display: none;
 }
