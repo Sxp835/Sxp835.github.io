@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Roboto+Slab|Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Montserrat|Sawarabi+Mincho');
 
 body {
     font-size: 16px;
-    font-family: "sawarabi mincho", "Arial", sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
     color: rgb(38,38,38);
-    background-color: #d8d8d8;
-    margin:0;
+    margin: 0 0 50px;
 }
 
 main {
-    max-width: 700px;
+    max-width: 850px;
     min-width: 530px;
     margin: 40px auto 0;
 }
 
 header div p {
     display: inline-block;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     margin-top: 0;
 }
 
 header {
-    max-width: 700px;
+    max-width: 850px;
     margin: 0 auto;
     position: relative;
     display: grid;
@@ -32,13 +31,14 @@ header {
     min-width: 550px;
     background-image: url("../img/laptop2.jpg");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
+    background-position-y: 0;
+    background-repeat: no-repeat;
     margin: 0 auto;
 }
 
 h2 {
-    font-family: "roboto slab", "Times New Roman", serif;
-    border-bottom: dotted 3px rgb(38,38,38);
+    border-bottom: dotted 3px black;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -48,13 +48,11 @@ h2 {
     border-right: solid 2px white;
     padding-right: 5px;
     color: white;
-    background: rgba(157, 160, 173, 0.3);
 }
 
 #email {
     font-weight: bold;
     color: white;
-    background: rgba(157, 160, 173, 0.3);
 }
 
 header div {
@@ -90,6 +88,7 @@ nav p {
     display: inline-block;
     margin-top: 0;
     margin-right: 50px;
+    color: #999999;
 }
 
 a {
@@ -126,11 +125,6 @@ nav a:active {
     color: lightblue;
 }
 
-article img {
-    margin: 0;
-    width: 500px;
-}
-
 #home {
     background-image: url("../img/laptop.jpg");
     background-attachment: fixed;
@@ -148,7 +142,7 @@ article img {
 
 #home h2 {
     font-size: 60px;
-    margin: 20px 0;
+    margin: 10px 0 05px;
     font-family: "lobster two", "times new roman", serif;
     border: none;
     color: rgb(0,102,102);
@@ -156,11 +150,15 @@ article img {
 
 #home main {
     margin-left: 30px;
+    margin-top: 100px;
 }
 
 #home #header {
-    background-color: rgb(157, 160, 173);
-    opacity: 0.5;
+    background-color: rgba(157, 160, 173, 0.5);
+}
+
+#home nav {
+    background-color: rgba(157, 160, 173, 0);
 }
 
 #graphics main div {
@@ -173,9 +171,92 @@ article img {
 }
 
 #graphics main img {
-    width: 200px;
+    width: 255px;
 }
 
-#graphics p {
-    margin-bottom: 30px;
+#graphics main p {
+    margin-bottom: 40px;
+}
+
+.location {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.date {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    margin: 0;
+}
+
+.company {
+    margin: 0;
+}
+
+.position {
+    margin: 0;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.list {
+    margin: 0;
+}
+
+article {
+    position: relative;
+}
+
+.grid2 article {
+    padding-left: 10px;
+}
+
+#article1 {
+    border-left: none;
+}
+
+#article1 {
+    grid-area: article1;
+}
+
+#article2 {
+    grid-area: article2;
+}
+
+#article3 {
+    grid-area: article3;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+            " article1 article2 article3";
+
+}
+
+#code article img {
+    position: relative;
+    left: 175px;
+    border: groove black 2px;
+    margin: 0;
+    width: 500px;
+}
+
+#code article {
+    margin-bottom: 40px;
+}
+
+#iam {
+    font-size: 17px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+#resume h2 {
+    font-size: 30px;
 }
