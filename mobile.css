@@ -1,0 +1,17 @@
+@media (max-width: 414px) {
+    body {
+        min-width: 50px;
+    }
+
+    #website {
+        display: inline-block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #resume {
+        display: inline-block;
+    }
+}
