@@ -28,7 +28,6 @@ header {
 }
 
 .header {
-    min-width: 550px;
     background-image: url("../img/laptop2.jpg");
     background-attachment: fixed;
     background-size: contain;
